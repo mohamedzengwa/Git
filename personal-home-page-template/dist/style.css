@@ -1,0 +1,79 @@
+/* =================
+  WRITE YOUR CSS HERE.
+  Check the ⌄ for help with formatting and validating your code.
+  You must write some CSS to complete this challenge.
+   ===================
+*/
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url(https://i.ibb.co/HnsMpKm/background.jpg);
+  background-size: cover;
+  color: black;
+}
+
+.box{
+  width: 450px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  color: white;
+  font-family: century Gothic,sans-serif;
+}
+.box-img{
+  border-radius: 50%;
+  width: 200px;
+  height: 200;
+}
+.box h1{
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+}
+.box h5{
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+.box p{
+  text-align: justify;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+.box li{
+  display:inline-block;
+  margin: 6px;
+  list-style: none;
+}
+.box li a{
+  color: white;
+  text-decoration: none;
+  font-size: 60px;
+  transition: all ease-in-out 250ms; 
+}
+.box li a:hover{
+  color: #b9b9b9;
+}
+header{
+  text-align: center;
+  margin-left:auto;
+  margin-left: auto;
+  color: black;
+  
+}
+footer{
+  text-align: center;
+  margin: 0px;
+  color: white;
+}
+
+
+/* don't edit this */
+.jest-lite-report__status--pass {
+  background: var(--color-pass);
+}
+.jest-lite-report__errors { display:none }
